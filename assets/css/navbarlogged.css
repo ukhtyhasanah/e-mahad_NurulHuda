@@ -1,0 +1,42 @@
+.nav__item__logged {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px;
+  float: right;
+}
+
+.nav__item__logged .myusername {
+  color: #ea6812;
+  font-weight: bold;
+}
+
+.nav__item__logged .userrank {
+  color: #ccff99;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+.nav__item__logged .admrank {
+  color: #3366ff;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .nav__item__logged {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav__item__logged {
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav__item__logged {
+    padding: 3px;
+  }
+}

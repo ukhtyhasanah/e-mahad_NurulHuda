@@ -1,0 +1,124 @@
+.about__main {
+  padding: 1px;
+  margin: 0;
+  color: #A9A9A9;
+}
+
+.about__mainwindow {
+  background-color: #fff5ed;
+  box-shadow: 0 4px black;
+  color: black;
+  width: 650px;
+  padding-top: 1px;
+  height: 485px;
+  margin: 140px auto;
+  margin-bottom: 1px;
+  border-radius: 10px;
+  padding-top: 10px;
+  border: 20px solid #964000;
+  outline: 2px dashed #632a00;
+  outline-offset: -9px;
+}
+
+.about__mainwindow h1, h2 {
+  display: inline-block;
+  background-color: #964000;
+  color: #f5f5f5;
+  margin: 4px 0 0 0;
+  padding: 4px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.about__mainwindow h3 {
+  display: inline-block;
+  background-color: #BE5504;
+  color: #F5F5F5;
+  margin: 7px 0 0 0;
+  padding: 4px;
+  border-radius: 10px;
+  margin-left: 70px;
+}
+
+.about__text {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 85px;
+}
+
+.about__text span {
+  color: #c62323;
+}
+
+@media screen and (max-width: 800px) {
+  .about__mainwindow {
+    width: 580px;
+  }
+  .about__text {
+    padding-left: 30px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about__mainwindow {
+    width: 500px;
+  }
+  .about__text {
+    padding-left: 30px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__mainwindow {
+    width: 450px;
+  }
+  .about__text {
+    padding-left: 30px;
+    font-size: 13px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .about__mainwindow {
+    width: 400px;
+  }
+  .about__text {
+    padding-left: 40px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about__mainwindow {
+    width: 280px;
+  }
+  .about__mainwindow h1, h2 {
+    font-size: 12px;
+  }
+  .about__text {
+    padding-left: 20px;
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  .about__mainwindow {
+    height: 465px;
+    margin-bottom: 1px;
+    margin-top: 97px;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .about__mainwindow {
+    font-size: 14px;
+    height: 450px;
+    margin-bottom: 1px;
+    margin-top: 70px;
+  }
+}

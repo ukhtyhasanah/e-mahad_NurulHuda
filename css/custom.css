@@ -1,0 +1,33 @@
+body {
+	padding-top: 70px;
+}
+
+.body {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.gal {
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+}	
+.gal img{
+	width: 100%; padding: 7px 0;
+}
+
+@media (max-width: 768px) {
+	.gal {
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+		-moz-column-count: 2; /* Firefox */
+		column-count: 2;
+	}
+}
+
+@media (max-width: 500px) {
+	.gal {
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+		-moz-column-count: 1; /* Firefox */
+		column-count: 1;
+	}
+}

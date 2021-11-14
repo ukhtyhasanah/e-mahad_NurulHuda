@@ -1,0 +1,308 @@
+.main__content {
+	padding-top: 1px;
+	margin: 0;
+}
+
+.chatbox {
+	background-color: #964000;
+	box-shadow: 0 4px #202020;
+	width: 700px;
+	height: 720px;
+  padding-top: 20px;
+	margin: 0 auto;
+	margin-top: 110px;
+  border-radius: 5px;
+	outline: 2px dashed #632a00;
+  outline-offset: -5px;
+}
+
+.chatlogs {
+	background-color: #fff5ed;
+	padding-left: 7px;
+	margin-left: 30px;
+	padding-top: 10px;
+	width: 92%;
+	height: 610px;
+  border-radius: 3px;
+}
+
+#chatData {
+	overflow-y: visible;
+	overflow-x: hidden;
+}
+
+#chatData::-webkit-scrollbar {
+	width: 10px;
+}
+
+#chatData::-webkit-scrollbar-thumb {
+	background-color: #562804;
+}
+
+.chat {
+	margin: 8px 3px;
+}
+
+.chat .chat-message {
+	color: #000;
+	width: 60%;
+	padding: 10px 15px 10px 15px;
+	margin: 5px 10px 0;
+	border-radius: 20px;
+	font-size: 18px;
+}
+
+.friend .chat-message {
+	background-color: #f7d0bb;
+	color: #484848;
+	border-top-left-radius: 0px;
+}
+
+.self .chat-message {
+	background-color: #964000;
+	color: #fff;
+	margin-left: 230px;
+	border-top-right-radius: 0px;
+}
+
+.selfchatname {
+	color: #020100;
+	font-weight: bold;
+}
+
+.friendchatname {
+	color: #802000;
+	font-weight: bold;
+}
+
+.chat-form {
+	margin: 22px 5px 20px 30px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.chat-form textarea {
+	background-color: #F0F0F0;
+	color: #000;
+	width: 88%;
+	height: 45px;
+	padding: 11px 5px 0 10px;
+	font-size: 18px;
+  resize: none;
+  border: none;
+	border-radius: 3px;
+}
+
+.chat-form button {
+	background-color: #F0F0F0;
+	color: #964000;
+  height: 45px;
+  padding: 0 15px 0 15px;
+	font-size: 25px;
+	margin: 0 20px 10px 30px;
+	border: none;
+	cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.chat-form button:hover {
+	color: #632a00;
+}
+
+.errorIndex {
+	font-weight: bold;
+	text-align: center;
+}
+
+.space {
+	padding-left: 3px;
+}
+
+@media screen and (max-height: 900px) {
+	.chatbox {
+		margin: 0 auto;
+		margin-top: 80px;
+		height: 600px;
+	}
+	.chatlogs {
+		height: 495px;
+	}
+	.chat-form {
+		margin-top: 16px;
+	}
+	.chatlogs::-webkit-scrollbar {
+		width: 9px;
+	}
+	.chat .chat-message {
+		font-size: 17px;
+		margin-top: 2px;
+		margin-right: 3px;
+		padding: 7px 8px;
+	}
+}
+
+@media screen and (max-height: 700px) {
+	.chatbox {
+		margin: 0 auto;
+		margin-top: 60px;
+		height: 510px;
+	}
+	.chatlogs {
+		height: 405px;
+	}
+	.chat-form {
+		margin-top: 16px;
+	}
+	.chatlogs::-webkit-scrollbar {
+		width: 9px;
+	}
+	.chat .chat-message {
+		font-size: 17px;
+		margin-top: 2px;
+		margin-right: 3px;
+		padding: 7px 8px;
+	}
+}
+
+@media screen and (max-height: 600px) {
+	.chatbox {
+		margin: 0 auto;
+		margin-top: 60px;
+		height: 405px;
+	}
+	.chatlogs {
+		height: 305px;
+	}
+	.chat-form {
+		margin-top: 16px;
+	}
+	.chatlogs::-webkit-scrollbar {
+		width: 8px;
+	}
+	.chat .chat-message {
+		font-size: 16px;
+		margin-top: 2px;
+		margin-right: 3px;
+		padding: 7px 8px;
+	}
+}
+
+
+@media screen and (max-height: 500px) {
+	.chatbox {
+		margin: 0 auto;
+		margin-top: 60px;
+		height: 345px;
+	}
+	.chatlogs {
+		height: 245px;
+	}
+	.chat-form {
+		margin-top: 16px;
+	}
+	.chatlogs::-webkit-scrollbar {
+		width: 9px;
+	}
+	.chat .chat-message {
+		font-size: 13px;
+		margin-top: 2px;
+		margin-right: 3px;
+		padding: 7px 8px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.chatbox {
+		width: 600px;
+	}
+	.self .chat-message {
+		margin-left: 190px;
+	}
+	.chatlogs {
+		width: 91%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.chatbox {
+		width: 500px;
+	}
+	.self .chat-message {
+		margin-left: 160px;
+	}
+	.chatlogs {
+		width: 89%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.chatbox {
+		width: 470px;
+	}
+	.self .chat-message {
+		margin-left: 140px;
+	}
+	.chatlogs {
+		width: 88%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.chatbox {
+		width: 400px;
+	}
+	.self .chat-message {
+		margin-left: 100px;
+	}
+	.chatlogs {
+		width: 86%;
+	}
+	.chat-form textarea {
+		font-size: 15px;
+	}
+	.chat-form button {
+		font-size: 16px;
+		margin-left: 15px;
+	}
+	.chat .chat-message {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.chatbox {
+		width: 280px;
+		padding-top: 8px;
+		height: 410px;
+	}
+	.self .chat-message {
+		margin-left: 80px;
+	}
+	.chatlogs {
+		width: 95%;
+		margin-left: 7px;
+		height: 335px;
+	}
+	.chat-form {
+		margin-left: 20px;
+		margin-top: 9px;
+		margin-left: 9px;
+		margin-right: 1px;
+	}
+	.chat-form textarea {
+		font-size: 12px;
+	}
+	.chat-form button {
+		font-size: 13px;
+		margin-left: 7px;
+		margin-right: 9px;
+	}
+	.chatlogs::-webkit-scrollbar {
+		width: 4px;
+	}
+	.chat .chat-message {
+		font-size: 12px;
+	}
+}
